@@ -1,0 +1,10 @@
+{
+  "canvas": "#fff",
+  "pairs": [
+    {
+      "name": "body",
+      "text": "#000",
+      "surface": "#fff"
+    }
+  ]
+}

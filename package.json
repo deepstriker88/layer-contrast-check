@@ -1,0 +1,42 @@
+{
+  "name": "layer-contrast-check",
+  "version": "0.1.0",
+  "description": "Check named text contrast pairs over solid sRGB layers in CI.",
+  "license": "MIT",
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "bin": {
+    "layer-contrast-check": "bin/cli.js"
+  },
+  "exports": {
+    "types": "./src/index.d.ts",
+    "default": "./src/index.js"
+  },
+  "files": [
+    "src",
+    "bin",
+    "SECURITY.md",
+    "CHANGELOG.md"
+  ],
+  "scripts": {
+    "test": "node --test"
+  },
+  "types": "./src/index.d.ts",
+  "funding": {
+    "type": "individual",
+    "url": "https://buymeacoffee.com/eztoolgo"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/deepstriker88/layer-contrast-check.git"
+  },
+  "bugs": {
+    "url": "https://github.com/deepstriker88/layer-contrast-check/issues"
+  },
+  "homepage": "https://github.com/deepstriker88/layer-contrast-check#readme",
+  "publishConfig": {
+    "access": "public"
+  }
+}
